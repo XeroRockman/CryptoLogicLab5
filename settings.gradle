@@ -1,0 +1,2 @@
+rootProject.name='CryptoLogicLab5'
+include ':app'
