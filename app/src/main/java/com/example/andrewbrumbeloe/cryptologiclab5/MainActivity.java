@@ -19,6 +19,11 @@ import android.widget.*;
 
 public class MainActivity extends AppCompatActivity {
 
+    String letterGuessString;
+    Button submitButton;
+    EditText letterInput;
+    TextView lettersSolved;
+
 
     ArrayList<String> words = new ArrayList<>(Arrays.asList("APPLE", "BANANA", "CHERRY", "CHOCOLATE", "CABLE", "COMPUTER", "PYTHON", "WATER", "GREEN", "ORANGE", "BLUE", "YELLOW"));
 
@@ -37,6 +42,29 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        //
+        //
+        //
+
+        //letterInput = (EditText) findViewById(R.id.userInput);
+
+        submitButton = (Button) findViewById(R.id.button);
+        submitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                letterInput = (EditText) findViewById(R.id.userInput);
+                letterGuessString = letterInput.getText().toString();
+                lettersSolved = (TextView) findViewById(R.id.textView2);
+                lettersSolved.setText(letterGuessString);
+
+            }
+
+
+        });
+
+
+
     }
 
     @Override

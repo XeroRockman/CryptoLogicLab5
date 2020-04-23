@@ -10,4 +10,15 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="dasdf">dasdf</string>
+    <string name="try_to_guess_the_secret_word_one_letter_at_a_time">Try to guess the secret word, one letter at a time</string>
+    <string name="name">Name</string>
+    <string name="scrambled_word">Scrambled Word: </string>
+    <string name="incorrect_guesses">Incorrect Guesses: </string>
+    <string name="string_guess_the_letters" />
+    <string name="guess_the_letters">guess_the_letters</string>
+    <string name="guess">Guess</string>
+    <string name="guess_letter">Guess Letter</string>
+    <string name="number_incorrect">number_incorrect</string>
+    <string name="incorrect_guessesm">Incorrect Guesses:</string>
+    <string name="a">A</string>
 </resources>
